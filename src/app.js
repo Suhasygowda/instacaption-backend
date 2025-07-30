@@ -4,6 +4,7 @@ const cookieParser = require("cookie-parser");
 const limiter = require("./middleware/ratelimit.middleware");
 const errorHandler = require("./middleware/errorHandler");
 const postRouter = require("./routes/post.routes");
+const cors = require("cors");
 
 const app = express();
 
